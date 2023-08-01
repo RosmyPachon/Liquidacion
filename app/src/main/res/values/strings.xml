@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Liquidacion</string>
+    <string name="title_welcome">Bienvenido</string>
+    <string name="title2_welcome">Ingresa tu nombre:</string>
+    <string name="button">Ingresar</string>
+    <string name="segunda_actividad">Segunda Actividad</string>
+    <string name="text_segunda_actividad">Ingresa los siguientes datos</string>
+    <string name="button_regresar">Regresar</string>
+    <string name="nombre">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="cargo">Cargo</string>
+    <string name="sueldo_base">Sueldo Base</string>
+    <string name="diaslab">Dias Laborados</string>
+</resources>
