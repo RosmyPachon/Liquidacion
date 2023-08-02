@@ -42,17 +42,12 @@ public class Login extends AppCompatActivity {
                 boolean tieneSalud = salud.isChecked();
                 boolean tienePension = pension.isChecked();
 
-                // Aquí puedes realizar el procesamiento de los datos ingresados,
-                // como calcular la nómina en base a la información proporcionada.
 
-                // Por ejemplo, si sueldoBaseText y diasLabText son números válidos, puedes convertirlos a números enteros.
                 int sueldoBase = Integer.parseInt(sueldoBaseText);
                 int diasLaborados = Integer.parseInt(diasLabText);
 
                 Intent intent = new Intent(Login.this, Liquidacion.class);
 
-
-                // Pasar los datos como extras en el Intent
                 intent.putExtra("nombres", nombresText);
                 intent.putExtra("apellidos", apellidosText);
                 intent.putExtra("cargo", cargoText);
@@ -62,7 +57,6 @@ public class Login extends AppCompatActivity {
                 intent.putExtra("tieneSalud", tieneSalud);
                 intent.putExtra("tienePension", tienePension);
 
-                // Iniciar la siguiente actividad
                 startActivity(intent);
             }
         });
